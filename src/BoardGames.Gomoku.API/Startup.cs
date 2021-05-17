@@ -27,7 +27,7 @@ namespace BoardGames.Gomoku.API
             var loggerFactory = LoggerFactory.Create(builder => builder.AddDebug());
             var logger = loggerFactory.CreateLogger<ApiExceptionFilter>();
 
-            services.AddControllers(options => 
+            services.AddControllers(options =>
                         options.Filters.Add(new ApiExceptionFilter(logger, Extensions.ServiceCollectionExtensions.ApiSettings)))
                     .AddFluentValidation(options => options.RegisterValidatorsFromAssemblyContaining<Startup>())
                     .AddNewtonsoftJson();
