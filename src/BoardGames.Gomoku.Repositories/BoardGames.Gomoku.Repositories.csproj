@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IEvangelist.Azure.CosmosRepository" Version="2.1.6" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.18.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoardGames.Gomoku.Entities\BoardGames.Gomoku.Entities.csproj" />
+    <ProjectReference Include="..\BoardGames.Gomoku.Models\BoardGames.Gomoku.Models.csproj" />
+  </ItemGroup>
+
+</Project>

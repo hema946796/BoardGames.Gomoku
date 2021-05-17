@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Gomoku.API", "BoardGames.Gomoku.API\BoardGames.Gomoku.API.csproj", "{86D5726B-8521-4E6A-AB65-88A65ADBEDA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Gomoku.Models", "BoardGames.Gomoku.Models\BoardGames.Gomoku.Models.csproj", "{7179FF0D-E98F-4BF0-84DE-E5E80ACEABF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Gomoku.Common", "BoardGames.Gomoku.Common\BoardGames.Gomoku.Common.csproj", "{45A7899F-139F-4A03-8352-B1150FC8083B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Gomoku.Business", "BoardGames.Gomoku.Business\BoardGames.Gomoku.Business.csproj", "{343A1420-6BD5-4703-BE5B-2DC50E958EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Gomoku.Entities", "BoardGames.Gomoku.Entities\BoardGames.Gomoku.Entities.csproj", "{EF55AB33-79B3-4363-93DD-620E73446D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoardGames.Gomoku.API.UnitTests", "BoardGames.Gomoku.API.UnitTests\BoardGames.Gomoku.API.UnitTests.csproj", "{B3BFE561-6596-4DB4-8777-96E93A31D203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86D5726B-8521-4E6A-AB65-88A65ADBEDA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D5726B-8521-4E6A-AB65-88A65ADBEDA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D5726B-8521-4E6A-AB65-88A65ADBEDA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D5726B-8521-4E6A-AB65-88A65ADBEDA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7179FF0D-E98F-4BF0-84DE-E5E80ACEABF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7179FF0D-E98F-4BF0-84DE-E5E80ACEABF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7179FF0D-E98F-4BF0-84DE-E5E80ACEABF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7179FF0D-E98F-4BF0-84DE-E5E80ACEABF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A7899F-139F-4A03-8352-B1150FC8083B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A7899F-139F-4A03-8352-B1150FC8083B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A7899F-139F-4A03-8352-B1150FC8083B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A7899F-139F-4A03-8352-B1150FC8083B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343A1420-6BD5-4703-BE5B-2DC50E958EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343A1420-6BD5-4703-BE5B-2DC50E958EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343A1420-6BD5-4703-BE5B-2DC50E958EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343A1420-6BD5-4703-BE5B-2DC50E958EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF55AB33-79B3-4363-93DD-620E73446D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF55AB33-79B3-4363-93DD-620E73446D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF55AB33-79B3-4363-93DD-620E73446D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF55AB33-79B3-4363-93DD-620E73446D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3BFE561-6596-4DB4-8777-96E93A31D203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BFE561-6596-4DB4-8777-96E93A31D203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BFE561-6596-4DB4-8777-96E93A31D203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BFE561-6596-4DB4-8777-96E93A31D203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36B6C8C4-FEB6-469C-A83E-3FCB6B2681F3}
+	EndGlobalSection
+EndGlobal
